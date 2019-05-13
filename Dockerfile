@@ -12,7 +12,7 @@ RUN mv lcov-server-${LCOV_SERVER_VERSION} lcov-server
 
 FROM docker:git as wait
 
-# RUN git clone -b master https://github.com/vishnubob/wait-for-it.git wait-for-it
+RUN git clone -b master https://github.com/vishnubob/wait-for-it.git wait-for-it
 
 # --- prod ---
 
