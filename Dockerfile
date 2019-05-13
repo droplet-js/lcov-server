@@ -32,4 +32,6 @@ RUN npm install lcov-server -g
 
 EXPOSE 8080
 
+RUN chmod +x entrypoint.sh
+
 ENTRYPOINT ["./entrypoint.sh"]
