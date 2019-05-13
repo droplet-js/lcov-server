@@ -31,7 +31,7 @@ services:
 
   lcov-server:
     container_name: lcov-server
-    image: v7lin/lcov-server:1.2.6
+    image: v7lin/lcov-server
     restart: always
     hostname: lcov-server
     ports:
