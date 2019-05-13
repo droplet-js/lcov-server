@@ -1,16 +1,3 @@
-# lcov-server
-
-[![Build Status](https://cloud.drone.io/api/badges/v7lin/lcov-server/status.svg)](https://cloud.drone.io/v7lin/lcov-server)
-[![Docker Pulls](https://img.shields.io/docker/pulls/v7lin/lcov-server.svg)](https://hub.docker.com/r/v7lin/lcov-server)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/v7lin/lcov-server/blob/master/LICENSE)
-
-### 项目源码
-
-[gabrielcsapo/lcov-server](https://github.com/gabrielcsapo/lcov-server)
-
-### 用法示例
-
-````
 # 版本
 version: "3.7"
 
@@ -47,4 +34,3 @@ services:
       - COVERAGE_BASEPATH=/tmp/covered
     depends_on:
       - mongo
-````
