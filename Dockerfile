@@ -16,7 +16,7 @@ RUN git clone -b master https://github.com/vishnubob/wait-for-it.git wait-for-it
 
 # --- prod ---
 
-FROM node:7.6-alpine as prod
+FROM node:8.16.0-alpine as prod
 
 MAINTAINER v7lin <v7lin@qq.com>
 
